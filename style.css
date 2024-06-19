@@ -1,0 +1,216 @@
+.navbar
+{
+	/* background-color: #0492C2 ;	CeruleanBlue*/
+	
+	/* background-color: #383838 ;*/
+	/*background-colour: transparent;*/
+	background: #AD7B06; /*Gold*/
+	position: relative;
+}
+.navbar-brand
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -50px !important;
+	display: block;
+}
+
+#navbarLogo
+{
+	content: url("../images/logo/navLogo.jpg");
+	width: 15%;
+}
+
+#foot
+{
+	color: #FFFFFF; /*White*/
+	font-size: 0.875vw;
+}
+
+@font-face
+{
+	font-family: Mirza;
+	src: url(Mirza-Regular.ttf) format('truetype');
+}
+
+.mirzaFont
+{
+	font-family: Mirza;
+}
+
+#firstRow
+{
+	/*margin-bottom: -19%;*/
+}
+
+.rowCardHeight
+{
+	max-height: 260px;
+}
+
+#firstRow:hover #mainPic
+{
+	/*margin-bottom: -19%;*/
+	
+	opacity: 0.6;
+}
+
+#firstRow:hover #learnBtn
+{
+	opacity: 1;
+}
+
+#mainPic
+{
+	content: url("../image/istockphoto.jpg");
+	min-width: 100%;
+	/*max-width: 100%;*/
+	max-height: 60%;	
+	
+	/*
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	*/
+	
+	opacity: 1;
+	display: block;
+	transition: 0.5sease;
+	backface-visibility: hidden;
+}
+
+#troubleRow
+{
+	position: relative;
+	margin-top: -24%;
+}
+
+.backgrounding
+{
+	/* background-color: #0492C2; */
+	background-color: #AD7B06;
+	color: #FFFFFF; /*White*/
+}
+
+#learnParagraph
+{
+	text-align: center;
+	position: relative;
+	top: -40%;
+	color: #FFFFFF; /*White*/
+	
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: white;
+	/* font-weight: bold; */
+}
+
+.imgSizing
+{
+	width: 300px;
+	height: 220px;
+	border-radius: 8px;
+}
+
+#contactUs
+{
+	border-none;
+	border-radius: 15px;
+	
+	
+	background-color: #AD7B06 ;	/*Yellow*/
+	width: 50%;
+	color: #FFFFFF; /*White*/
+}
+
+.icons
+{
+	width: 32px;
+}
+
+#learnBtn
+{
+
+	position: relative;
+	left: 50%;
+	top: -30%;
+	transform: translate(-50%, -10%);
+	
+	/*
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	*/
+	
+	transition: 0.5s ease;
+	opacity: 0;
+	
+	border-radius: 30px;
+}
+
+#aboutHeading
+{
+	text-align: left;
+	/*margin-top: -3%; for md*/
+	/*margin-top: -7%; for sm*/
+	margin-top: 0%; /* correct it to -25% if troubeRow has its margin-top set to -10%*/
+}
+
+
+.aboutAlign
+{
+	max-width: 60%;
+}
+
+#aboutUs
+{
+}
+
+#services
+{
+}
+
+#aboutPic
+{
+	content: url("../image/pencil.png");
+	/* margin-top:-20%;  For when you use #aboutAlign + col-md-7(#aboutUs)*/ 
+	
+	/*margin-top: -5%;*/
+}
+
+#leftPic
+{
+	background-image: url("../image/water07.png");
+	background-repeat: no-repeat;
+	background-size: 25% 100%; 
+	padding-right: 0%;	
+	padding-left: 30%;
+	/*padding-bottom: 50%;*/
+	margin-right: -21.6%;
+	/*margin-top: -15%; */
+}
+
+img .img-fluid
+{
+	max-width: 100%;
+	height: auto;
+}
+
+#topScroll
+{
+	position: relative;
+	left: 95%;
+	top: 0.5%;
+}
+
+#footerLogo
+{
+	/*background-image: url("../image/Business-favicon.jpg");*/
+	content: url("../image/Quantum Physics-logo.jpg"); 
+	background-repeat: no-repeat;
+	width: 50%;
+}
