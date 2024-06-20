@@ -8,18 +8,14 @@
 		<link rel="icon" type="image/jpg" href="../images/logo/favicon.jpg">
 		
 		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" />
-		<!--link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap-theme.min.css"-->
 		<link rel="stylesheet" href="style.css" />
-		<!--script src="jquery.js"></script-->
 		<script src="../bootstrap/js/bootstrap.min.js"></script>
-		<!--script type="text/javascript" src="script.js"></script-->
 	</head>
 	
 	<body class="mirzaFont">
-		<!--Navigation bar-->
 		<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
 			<div class="container-fluid">
-				<a class="navbar-brand mirzaFont" href="#">
+				<a class="navbar-brand" href="#">
 					<img id="navbarLogo">
 					<img class="d-inline-block align-text-top" id="logo">Quantum Future
 				</a>
@@ -45,9 +41,142 @@
 			</div>
 		</nav>
 		
+		<main class="container-fluid">
+			<!--div class="row" id="splash">
+				<div class="col-md-6">
+					<h1 class="display-4">Your one-stop for CAPS tutors</h1>
+					
+					<p class="lead my-3">
+						Never struggle in silence.<br/> 
+						We are specialists in the NSC, IEB, Cambridge, and Oxford curriculums.
+					</p>
+					
+					<a class="btn" type="button" id="splashButton" href="#">
+						<h3>Our Services</h3>
+					</a>
+				</div>
+			</div-->
+			
+			<div id="splash" class="text-center">
+				<div class="col-md-5 p-lg-5 mx-auto my-5">
+					<h1 class="display-5">
+						Your one-stop for CAPS tutors
+					</h1>
+					<p class="lead">
+						Never struggle in silence.<br/> 
+						We are specialists in the NSC, IEB, Cambridge, and Oxford curriculums.
+					</p>
+					<a class="btn" type="button" id="splashButton" href="#">
+						<h3>Our Services</h3>
+					</a>
+				</div>
+			</div>
+			
+			<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+				<div class="me-md-3 pt-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" id="oneOnOneTutoring">
+					<div class="my-3">
+						<h2 class="display-5">
+							One-on-one tutoring
+						</h2>
+						<p class="lead">
+							The tutor would have a private session with a single student
+							at a time.
+						</p>
+					</div>
+					
+					<div class="bg-light shadow-sm mx-auto tutoring">
+					</div>
+					<!--div class="mx-auto tutoring">
+						<img id="oneOnOneImage">
+					</div-->
+				</div>
+				
+				<div class="me-md-3 pt-3 pt-md-5 px-md-5 text-center overflow-hidden" id="groupTutoring">
+					<div class="my-3">
+						<h2 class="display-5">
+							Group tutoring
+						</h2>
+						<p class="lead">
+							This tutoring sessions is provided to more than one student at 
+							a time.
+						</p>
+					</div>
+					
+					<div class="bg-black shadow-sm mx-auto  tutoring">
+					</div>
+					<!--div class="tutoring">
+						<img id="groupImage">
+					</div-->
+				</div>
+			</div>
+			
+			<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+				<div class="me-md-3 pt-3 pt-md-5 px-md-5 text-center overflow-hidden" id="groupTutoring">
+					<div class="my-3">
+						<h2 class="display-5">
+							Homework assistance
+						</h2>
+						<p class="lead">
+							These tutoring sessions are to help the student with
+							their homeworks.
+						</p>
+					</div>
+					
+					<div class="bg-black shadow-sm mx-auto  tutoring">
+					</div>
+				</div>
+				
+				<div class="me-md-3 pt-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" id="oneOnOneTutoring">
+					<div class="my-3">
+						<h2 class="display-5">
+							Homeschooling assistance
+						</h2>
+						<p class="lead">
+							The sessions are to help the student with studying in
+							their own homes.
+						</p>
+					</div>
+					
+					<div class="bg-light shadow-sm mx-auto tutoring">
+					</div>
+				</div>
+			</div>
+			
+			<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+				<div class="me-md-3 pt-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" id="oneOnOneTutoring">
+					<div class="my-3">
+						<h2 class="display-5">
+							Exam preparation
+						</h2>
+						<p class="lead">
+							The students can use this service to prepare for their
+							upcoming exams.
+						</p>
+					</div>
+					
+					<div class="bg-light shadow-sm mx-auto tutoring">
+					</div>
+				</div>
+				
+				<div class="me-md-3 pt-3 pt-md-5 px-md-5 text-center overflow-hidden" id="groupTutoring">
+					<div class="my-3">
+						<h2 class="display-5">
+							Career guidance
+						</h2>
+						<p >
+							These sessions help the student with making the
+							correct subject and career choices.
+						</p>
+					</div>
+					
+					<div class="bg-black shadow-sm mx-auto  tutoring">
+					</div>
+				</div>
+			</div>
+			
+		</main>
 		
-		<!--Content-->
-		<div class="container-fluid">
+		<!--div class="container-fluid">
 			<div class="row" id="firstRow">
 				<div class="col-md-12">
 					<picture>
@@ -63,7 +192,6 @@
 				</div>
 			</div> 
 			
-			<!--About-->
 			<div class="row" id="troubleRow">
 				<div>
 					<span id="aboutUs" class="text-center">
@@ -75,11 +203,6 @@
 			
 			<div class="row lead">
 				<div class="text-center">
-					<!--span id="aboutUs">
-						<h3 class="display-5" id="aboutHeading">About</h3>
-						<h1>QUANTUM PHYSICS</h1>
-					</span-->
-					
 					<picture><img class="img-fluid col-md-5 mb-3 ms-md-3" id="aboutPic"></picture>
 					<p>
 						We are a group of young educated women who are eager to transfer knowledge
@@ -91,12 +214,10 @@
 				</div>
 			</div>
 			
-			<!--Services-->
 			<br>
 			<div class="row backgrounding">
 				<div class="col-md-5 offset-md-4">
 					<h3 class="display-5 text-center" id="services">Services we offer</h3>
-					<!--h3 id="servicesHeading" class="display-5">Services we offer</h3-->
 				</div>
 				<div class="text-center">
 					<p>
@@ -241,197 +362,60 @@
 				
 			</div>
 			
-			<!--div class="row">
-				<div class="col-md-5 offset-md-1">
-					<div class="card mb-3 h-100">
-						<div class="row g-0">
-							<div class="col-md-6 col-sm-4">
-								<img src="../image/one-on-one.jpg" class="img-fluid rounded-start imgSizing">
-							</div>
-							
-							<div class="col-md-6 col-sm-8">
-								<div class="card-body">
-									<h4 class="card-title">One-on-one tutoring</h4>
-									
-									<p class="card-text">
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-5 ">
-					<div class="card mb-3 h-100">
-						<div class="row g-0">
-							<div class="col-md-6 col-sm-4">
-								<img src="../image/group.jpg" class="img-fluid rounded-start imgSizing">
-							</div>
-							
-							<div class="col-md-6 col-sm-8">
-								<div class="card-body">
-									<h4 class="card-title">Group tutoring <br>(max of 5)</h4>
-									
-									<p class="card-text">
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row">
-				<p></p>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-5 offset-md-1">
-					<div class="card mb-3 h-100">
-						<div class="row g-0">
-							<div class="col-md-6 col-sm-4">
-								<img src="../image/homeschooling.jpg" class="img-fluid rounded-start imgSizing">
-							</div>
-							
-							<div class="col-md-6 col-sm-8">
-								<div class="card-body">
-								<h4 class="card-title">Homeschooling assistance</h4>
-								
-								<p class="card-text">
-								</p>
-							</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-5">
-					<div class="card mb-3 h-100">
-						<div class="row g-0">
-							<div class="col-md-6 col-sm-4">
-								<img src="../image/homework.jpg" class="img-fluid rounded-start imgSizing">
-							</div>
-							
-							<div class="col-md-6 col-sm-8">
-								<div class="card-body">
-								
-									<h4 class="card-title">Homework assistance</h4>
-									<p class="card-text">
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row">
-				<p></p>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-5 offset-md-1">
-					<div class="card mb-3 h-100">
-						<div class="row g-0">
-							<div class="col-md-6 col-sm-4">
-								<img src="../image/exam.jpg" class="img-fluid rounded-start imgSizing">
-							</div>
-							
-							<div class="col-md-6 col-sm-8">
-								<div class="card-body">
-								<h4 class="card-title">Exam preparation</h4>
-								
-								<p class="card-text">
-								</p>
-							</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-5">
-					<div class="card mb-3 h-100">
-						<div class="row g-0">
-							<div class="col-md-6 col-sm-4">
-								<img src="../image/career.jpg" class="img-fluid rounded-start imgSizing">
-							</div>
-							
-							<div class="col-md-6 col-sm-8">
-								<div class="card-body">
-								
-									<h4 class="card-title">Career guidance and <br> Subject choices guidance</h4>
-									<p class="card-text">
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div-->
-			
-			<!--Contact-->			
+					
 			<div class="row">
 				<div class="col-md-10 offset-md-1">
 					<div class="container p-5 my-5 " id="contactUs">
 						<h1 class="text-center display-6">CONTACT US</h1>
 						<span class="verdanaFont text-center">
-						<p><img src="../icons-1.8.1/icons/telephone.svg" alt="Bootstrap" class="icons garamondFont"> &emsp; 068 475 0479</p>
-						<p><img src="../icons-1.8.1/icons/envelope.svg" alt="Bootstrap" class="icons"> &emsp; Qftutoring@gmail.com</p>
-						<p><img src="../icons-1.8.1/icons/whatsapp.svg" alt="Bootstrap" class="icons"> &emsp; 068 475 0479</p>
-						<!--p><img src="../icons-1.8.1/icons/envelope.svg" alt="Bootstrap" class="icons"> &emsp; <a href="mailto:QFtuition@gmail.com">QFtuition@gmail.com</a></p-->
-						<!--p><img src="../icons-1.8.1/icons/clock.svg" alt="Bootstrap" class="icons"> &emsp; Open on weekdays 08:00 - 17:00</p-->
+							<p><img src="../icons-1.8.1/icons/telephone.svg" alt="Bootstrap" class="icons garamondFont"> &emsp; 068 475 0479</p>
+							<p><img src="../icons-1.8.1/icons/envelope.svg" alt="Bootstrap" class="icons"> &emsp; Qftutoring@gmail.com</p>
+							<p><img src="../icons-1.8.1/icons/whatsapp.svg" alt="Bootstrap" class="icons"> &emsp; 068 475 0479</p>
 						</span>
-						<!--a class="btn btn-light" role="button" id="learnBtn" href="#aboutHeading">
-							<h4>Learn more</h4>
-						</a-->
 					</div>
 					
 					<a id="topScroll" href="#"><img src="../icons-1.8.1/icons/chevron-double-up.svg" class="icons"></a>
 				</div>
 			</div>
-			
-			<!--Just a guide of where the cols start>
-			<div class="row">
-				<div class="col-md-1">|01 Hello</div>
-				<div class="col-md-1">|02 Hello</div>
-				<div class="col-md-1">|03 Hello</div>
-				<div class="col-md-1">|04 Hello</div>
-				<div class="col-md-1">|05 Hello</div>
-				<div class="col-md-1">|06 Hello</div>
-				<div class="col-md-1">|07 Hello</div>
-				<div class="col-md-1">|08 Hello</div>
-				<div class="col-md-1">|09 Hello</div>
-				<div class="col-md-1">|10 Hello</div>
-				<div class="col-md-1">|11 Hello</div>
-				<div class="col-md-1">|12 Hello</div>
-				<div class="col-md-1">|13 Hello</div>
-				<div class="col-md-1">|14 Hello</div>
-			</div-->
-		</div>
+		</div-->
 		
-		<!--Footer-->
-		<nav class="navbar bottom navbar-dark" id="foot">
-			<div class="container-fluid justify-content-center">
-				<!--div class="row ">
-					<div class="col-md-4">
-						<span><picture><img id="footerLogo"></picture></span>
-					</div>
-					<div class="col-md-4">
-						<span>The quick brown fox jumps over the lazy dog 0 1 2 3 4 5 6 7 8 9 The quick brown fox jumps over the lazy dog 0 1 2 3 4 5 6 7 8 9</span>
-						<p>Quantum Physics. &copy; 2022.</p>
-					</div>
-					<div class="col-md-4">
-						<span>The quick brown fox jumps over the lazy dog 0 1 2 3 4 5 6 7 8 9 The quick brown fox jumps over the lazy dog 0 1 2 3 4 5 6 7 8 9</span>
-					</div>
-				</div-->
-				
-				<div class="row text-center verdanaFont">
-					<a class="navbar-brand">
-						<img id="navbarLogo">
-						<!--img class="d-inline-block align-text-top" id="logo"-->
+		<footer class="sticky-bottom text-center text-white">
+			<div class="container p-4 pb-0">
+				<div class="md-4">
+					<a data-mdb-ripple-init class="btn btn-outline-primary btn-floating m-1 border border-white" href="#" role="button">
+						<i class="fab">
+							<img id="whatsappIcon" alt="WhatsApp">
+						</i>
+					</a>
+					
+					<a data-mdb-ripple-init class="btn btn-outline-primary btn-floating m-1 border border-white" href="#" role="button">
+						<i class="fab">
+							<img id="twitterIcon" src="../icons-1.8.1/icons/whatsapp.svg" alt="X" class="icons">
+						</i>
+					</a>
+					
+					<a data-mdb-ripple-init class="btn btn-outline-primary btn-floating m-1 border border-white" href="#" role="button">
+						<i class="fab">
+							<img id="facebookIcon" alt="WhatsApp">
+						</i>
+					</a>
+					
+					<a data-mdb-ripple-init class="btn btn-outline-primary btn-floating m-1 border border-white" href="#" role="button">
+						<i class="fab">
+							<img id="linkedinIcon" src="../icons-1.8.1/icons/whatsapp.svg" alt="X" class="icons">
+						</i>
 					</a>
 				</div>
 			</div>
-		</nav>
+			
+			<div class="text-center p-3">
+				<div>
+					<img id="footerLogo">
+				</div>
+				
+				Quantum Future Tutoring. &copy; 2024. Designed by Nkosinathi Ndlovu
+				
+			</div>
+		</footer>
 	</body>
 <html>
