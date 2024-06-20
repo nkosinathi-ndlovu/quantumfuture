@@ -1,12 +1,10 @@
 .navbar
 {
-	/* background-color: #0492C2 ;	CeruleanBlue*/
-	
-	/* background-color: #383838 ;*/
 	/*background-colour: transparent;*/
 	background: #AD7B06; /*Gold*/
 	position: relative;
 }
+
 .navbar-brand
 {
 	position: absolute;
@@ -17,14 +15,8 @@
 
 #navbarLogo
 {
-	content: url("../images/logo/navLogo.jpg");
+	content: url("images/logo/navLogo.jpg");
 	width: 15%;
-}
-
-#foot
-{
-	color: #FFFFFF; /*White*/
-	font-size: 0.875vw;
 }
 
 @font-face
@@ -37,6 +29,105 @@
 {
 	font-family: Mirza;
 }
+
+footer
+{
+	background: #AD7B06;
+}
+
+.icons
+{
+	width: 32px;
+}
+
+#whatsappIcon
+{
+	content: url("icons-1.8.1/icons/whatsapp.svg");
+	width: 12px;
+}
+
+#twitterIcon
+{
+	content: url("icons-1.8.1/icons/x-twitter.svg");
+	width: 12px;
+}
+
+#facebookIcon
+{
+	content: url("icons-1.8.1/icons/facebook.svg");
+	width: 12px;
+}
+
+#linkedinIcon
+{
+	content: url("icons-1.8.1/icons/linkedin.svg");
+	width: 12px;
+}
+
+#footerLogo
+{
+	content: url("images/logo/footerLogo.jpg"); 
+	max-width: 10%;
+}
+
+#splash
+{
+}
+
+#splashButton
+{
+	background-color: #AD7B06;
+	border-color: #000000;
+}
+
+#splashImage
+{
+	content: url("images/stock/book-stack.png");
+	
+	max-width: 40%;
+	height: auto;
+	/*
+	max-width: 50%;
+	max-height: 50%;	*/
+}
+
+.tutoring
+{
+	width:80%; 
+	height: 300px; 
+	border-radius: 21px 21px 0 0;
+}
+
+#oneOnOneTutoring
+{
+	background-color: #AD7B06;
+}
+
+#groupTutoring
+{
+	background-color: #F6F6F6;
+}
+
+#oneOnOneImage
+{
+	width: 100%;
+	height: auto;
+	content: url("image/one-on-one.jpg");
+}
+
+#groupImage
+{
+	width: 100%;
+	height: auto;
+	content: url("image/group.jpg");
+}
+
+
+
+
+
+
+
 
 #firstRow
 {
@@ -60,23 +151,7 @@
 	opacity: 1;
 }
 
-#mainPic
-{
-	content: url("../image/istockphoto.jpg");
-	min-width: 100%;
-	/*max-width: 100%;*/
-	max-height: 60%;	
-	
-	/*
-	filter: blur(2px);
-	-webkit-filter: blur(2px);
-	*/
-	
-	opacity: 1;
-	display: block;
-	transition: 0.5sease;
-	backface-visibility: hidden;
-}
+
 
 #troubleRow
 {
@@ -86,7 +161,6 @@
 
 .backgrounding
 {
-	/* background-color: #0492C2; */
 	background-color: #AD7B06;
 	color: #FFFFFF; /*White*/
 }
@@ -117,40 +191,12 @@
 	border-radius: 15px;
 	
 	
-	background-color: #AD7B06 ;	/*Yellow*/
+	background-color: #AD7B06;	/*Yellow*/
 	width: 50%;
 	color: #FFFFFF; /*White*/
 }
 
-.icons
-{
-	width: 32px;
-}
 
-#learnBtn
-{
-
-	position: relative;
-	left: 50%;
-	top: -30%;
-	transform: translate(-50%, -10%);
-	
-	/*
-	-ms-transform: translate(-50%, -50%);
-	background-color: #555;
-	color: white;
-	font-size: 16px;
-	padding: 12px 24px;
-	border: none;
-	cursor: pointer;
-	border-radius: 5px;
-	*/
-	
-	transition: 0.5s ease;
-	opacity: 0;
-	
-	border-radius: 30px;
-}
 
 #aboutHeading
 {
@@ -176,7 +222,7 @@
 
 #aboutPic
 {
-	content: url("../image/pencil.png");
+	content: url("image/pencil.png");
 	/* margin-top:-20%;  For when you use #aboutAlign + col-md-7(#aboutUs)*/ 
 	
 	/*margin-top: -5%;*/
@@ -184,7 +230,7 @@
 
 #leftPic
 {
-	background-image: url("../image/water07.png");
+	background-image: url("image/water07.png");
 	background-repeat: no-repeat;
 	background-size: 25% 100%; 
 	padding-right: 0%;	
@@ -205,12 +251,4 @@ img .img-fluid
 	position: relative;
 	left: 95%;
 	top: 0.5%;
-}
-
-#footerLogo
-{
-	/*background-image: url("../image/Business-favicon.jpg");*/
-	content: url("../image/Quantum Physics-logo.jpg"); 
-	background-repeat: no-repeat;
-	width: 50%;
 }
