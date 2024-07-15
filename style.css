@@ -35,11 +35,6 @@ footer
 	background: #AD7B06;
 }
 
-.icons
-{
-	width: 32px;
-}
-
 #whatsappIcon
 {
 	content: url("icons-1.8.1/icons/whatsapp.svg");
@@ -48,7 +43,7 @@ footer
 
 #twitterIcon
 {
-	content: url("icons-1.8.1/icons/x-twitter.svg");
+	content: url("icons-1.8.1/icons/twitter-x.svg");
 	width: 12px;
 }
 
@@ -121,6 +116,18 @@ footer
 	height: auto;
 	content: url("image/group.jpg");
 }
+img .img-fluid
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.imgSizing
+{
+	width: 300px;
+	height: 220px;
+	border-radius: 7px;
+}
 
 
 
@@ -178,12 +185,7 @@ footer
 	/* font-weight: bold; */
 }
 
-.imgSizing
-{
-	width: 300px;
-	height: 220px;
-	border-radius: 8px;
-}
+
 
 #contactUs
 {
@@ -238,12 +240,6 @@ footer
 	/*padding-bottom: 50%;*/
 	margin-right: -21.6%;
 	/*margin-top: -15%; */
-}
-
-img .img-fluid
-{
-	max-width: 100%;
-	height: auto;
 }
 
 #topScroll
