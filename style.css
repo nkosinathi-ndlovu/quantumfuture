@@ -65,25 +65,10 @@ footer
 	max-width: 10%;
 }
 
-#splash
-{
-}
-
 #splashButton
 {
 	background-color: #AD7B06;
 	border-color: #000000;
-}
-
-#splashImage
-{
-	content: url("images/stock/book-stack.png");
-	
-	max-width: 40%;
-	height: auto;
-	/*
-	max-width: 50%;
-	max-height: 50%;	*/
 }
 
 .tutoring
@@ -93,29 +78,94 @@ footer
 	border-radius: 21px 21px 0 0;
 }
 
-#oneOnOneTutoring
+#TutorImage1
+{
+	min-width: 180px;
+	max-height: 180px;
+	content: url("images/tutors/Photo from Gontse - 1.jpg");
+}
+
+#TutorImage2
+{
+	min-width: 180px;
+	max-height: 180px;
+	content: url("images/tutors/Photo from Gontse (1) - 1.jpg");
+}
+
+#TutorImage3
+{
+	min-width: 180px;
+	max-height: 180px;
+	content: url("images/tutors/Photo from Gontse (2) - 1.jpg");
+}
+
+#TutorImage4
+{
+	min-width: 180px;
+	max-height: 180px;
+	content: url("images/tutors/Photo from Gontse (3) - 1.jpg");
+}
+
+#TutorImage5
+{
+	min-width: 180px;
+	max-height: 180px;
+	content: url("images/tutors/Photo from Gontse (4) - 1.jpg");
+}
+
+ul
+{
+	list-style-position: inside;
+}
+
+.tutorDetails
+{
+	text-align: left;
+}
+
+.leftServices
 {
 	background-color: #AD7B06;
 }
 
-#groupTutoring
+.rightServices
 {
-	background-color: #F6F6F6;
+	/*background-color: #F6F6F6;*/
+	background-color: #D2D2D2;
 }
 
 #oneOnOneImage
 {
-	width: 100%;
-	height: auto;
-	content: url("image/one-on-one.jpg");
+	/*width: 100%;
+	height: auto;*/
+	content: url("images/content/one-on-one.jpg");
 }
 
 #groupImage
 {
-	width: 100%;
-	height: auto;
-	content: url("image/group.jpg");
+	content: url("images/content/group.jpg");
 }
+
+#homeworkImage
+{
+	content: url("images/content/homework.jpg");
+}
+
+#homeschoolImage
+{
+	content: url("images/content/homeschooling.jpg");
+}
+
+#examImage
+{
+	content: url("images/content/exam.jpg");
+}
+
+#careerImage
+{
+	content: url("images/content/career.jpg");
+}
+
 img .img-fluid
 {
 	max-width: 100%;
@@ -130,6 +180,26 @@ img .img-fluid
 }
 
 
+/*Camp*/
+#qtyRow1
+{
+	display: inline;
+}
+
+#qtyRow2
+{
+	display: inline;
+}
+
+#qtyRow3
+{
+	display: inline;
+}
+
+#totalRow4
+{
+	display: inline;
+}
 
 
 
@@ -198,8 +268,6 @@ img .img-fluid
 	color: #FFFFFF; /*White*/
 }
 
-
-
 #aboutHeading
 {
 	text-align: left;
@@ -208,38 +276,9 @@ img .img-fluid
 	margin-top: 0%; /* correct it to -25% if troubeRow has its margin-top set to -10%*/
 }
 
-
 .aboutAlign
 {
 	max-width: 60%;
-}
-
-#aboutUs
-{
-}
-
-#services
-{
-}
-
-#aboutPic
-{
-	content: url("image/pencil.png");
-	/* margin-top:-20%;  For when you use #aboutAlign + col-md-7(#aboutUs)*/ 
-	
-	/*margin-top: -5%;*/
-}
-
-#leftPic
-{
-	background-image: url("image/water07.png");
-	background-repeat: no-repeat;
-	background-size: 25% 100%; 
-	padding-right: 0%;	
-	padding-left: 30%;
-	/*padding-bottom: 50%;*/
-	margin-right: -21.6%;
-	/*margin-top: -15%; */
 }
 
 #topScroll
